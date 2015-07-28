@@ -10,7 +10,6 @@ env:
 
 before_install:
     - node --version
-    - npm install -g grunt-cli
     - mkdir -p ./shippable/testresults
     - mkdir -p ./shippable/codecoverage
 
